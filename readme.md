@@ -8,7 +8,7 @@ This "script snippet" was written in a combination of HTML, CSS and base JavaScr
 
 ## Installation
 ### Script-Snippet (CMS, or "the easy way"):
-* Copy and paste the contents of "script-snippet.txt" into a global template or content-asset near the bottom of the page, such as a footer or legal text block.
+* Copy and paste the contents of "code-snippet.txt" into a global template or content-asset near the bottom of the page, such as a footer or legal text block.
 		
 ### Separate File Inclusion
 * Add jsVideoModal.min.css to your global includes
