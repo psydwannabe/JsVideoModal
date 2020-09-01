@@ -9,21 +9,22 @@ This "script snippet" was written in a combination of HTML, CSS and base JavaScr
 ## Installation
 ### Script-Snippet (CMS, or "the easy way"):
 * Copy and paste the contents of "script-snippet.txt" into a global template or content-asset near the bottom of the page, such as a footer or legal text block.
-
+		
 ### Separate File Inclusion
 * Add jsVideoModal.min.css to your global includes
 * Add jsVideoModal.min.css to your global includes _in the footer._
 * Add the following HTML somewhere in your global HTML _in the footer:_
-`<!-- START jsVideoModal - V1.0 - https://github.com/psydwannabe/jsVideoModal -->
+```
+<!-- START jsVideoModal - V1.0 - https://github.com/psydwannabe/jsVideoModal -->
 <div id="sg-videoModal">
-	<div class="sg-backdrop"></div>
-	<div class="sg-videoContainer">
-		<button class="sg-closeButton" aria-label="Close" onclick="sgVideoModalClose();">x</button>
-		<iframe class="sg-video" src="about:blank"  frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	</div>
+<div class="sg-backdrop"></div>
+<div class="sg-videoContainer">
+<button class="sg-closeButton" aria-label="Close" onclick="sgVideoModalClose();">x</button>
+<iframe class="sg-video" src="about:blank"  frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 </div>
 <!-- END jsVideoModal - V1.0 - https://github.com/psydwannabe/jsVideoModal -->
-`
+```
 
 ## Usage
 * Use class "makeThisAVideoModal" in any `<a>` element with a Youtube URL as the `href` attribute.
