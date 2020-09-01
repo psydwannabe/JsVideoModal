@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>VideoModal v1.0</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+	<p>
+		Test of a 
+		<a class="makeThisAVideoModal" href="https://www.youtube.com/watch?v=sOEs38McXPQ" target="_blank">
+			YouTube Video Link
+		</a> 
+		inside this page.
+	</p>
+	<p>
+		Test of a second 
+		<a class="makeThisAVideoModal" href="https://www.youtube.com/watch?v=K-A76sS15HY" target="_blank">
+			YouTube Video Link
+		</a> 
+		inside this page.
+	</p>
+
+	<!-- START jsVideoModal - V1.0 - https://github.com/psydwannabe/jsVideoModal -->
+	<link rel="stylesheet" type="text/css" href="includes/jsVideoModal.css" />
+	<div id="sg-videoModal">
+		<div class="sg-backdrop"></div>
+		<div class="sg-videoContainer">
+			<button class="sg-closeButton" aria-label="Close" onclick="sgVideoModalClose();">x</button>
+			<iframe class="sg-video" src="about:blank"  frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+	</div>
+	<script type="text/javascript" src="includes/jsVideoModal.js"></script>
+	<!-- END jsVideoModal - V1.0 - https://github.com/psydwannabe/jsVideoModal -->
+
+</body>
+</html>
