@@ -1,4 +1,4 @@
-# jsVideoModal v1.0
+# jsVideoModal v1.1
 ## Introduction
 jsVideoModal is a snippet which turns HTML links like this one:
 `<a href="https://www.youtube.com/watch?v=K-A76sS15HY" target="_blank">Modern Pirates</a>`
