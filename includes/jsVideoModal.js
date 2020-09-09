@@ -4,7 +4,7 @@
                      | / __\ \ / / |/ _` |/ _ \/ _ \ /    \ / _ \ / _` |/ _` | |
                      | \__ \\ V /| | (_| |  __/ (_) / /\/\ \ (_) | (_| | (_| | |
                     _/ |___/ \_/ |_|\__,_|\___|\___/\/    \/\___/ \__,_|\__,_|_|
-                   |__/  VERSION 1.0  -  BLACK LIVES MATTER  -  AUG 18, 2020
+                   |__/  VERSION 1.1  -  BLACK LIVES MATTER  -  SEP 09, 2020
                          https://github.com/psydwannabe/jsVideoModal
                              
  NOTE: This JS snippet relies on separate CSS and HTML elements to function.
@@ -81,7 +81,8 @@ function sgVideoModalClose() {
 
 // Now we attach that to the background element!
 sgVideoModal.getElementsByClassName('sg-backdrop')[0].onclick=sgVideoModalClose;
-
+// And the close button itself, of course.
+sgVideoModal.getElementsByClassName('sg-closeButton')[0].onclick=sgVideoModalClose;
 
 // Now a function to close things down when the escape key is pressed.
 // The following was stolen shamelessly from Stackoverflow:

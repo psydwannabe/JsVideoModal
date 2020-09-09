@@ -15,15 +15,15 @@ This "script snippet" was written in a combination of HTML, CSS and base JavaScr
 * Add jsVideoModal.min.css to your global includes _in the footer._
 * Add the following HTML somewhere in your global HTML _in the footer:_
 ```
-<!-- START jsVideoModal - V1.0 - https://github.com/psydwannabe/jsVideoModal -->
+<!-- START jsVideoModal - V1.1 - https://github.com/psydwannabe/jsVideoModal -->
 <div id="sg-videoModal">
-<div class="sg-backdrop"></div>
-<div class="sg-videoContainer">
-<button class="sg-closeButton" aria-label="Close" onclick="sgVideoModalClose();">x</button>
-<iframe class="sg-video" src="about:blank"  frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<div class="sg-backdrop"></div>
+	<div class="sg-videoContainer">
+		<button class="sg-closeButton" aria-label="Close">x</button>
+		<iframe class="sg-video" src="about:blank"  frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
 </div>
-</div>
-<!-- END jsVideoModal - V1.0 - https://github.com/psydwannabe/jsVideoModal -->
+<!-- END jsVideoModal - V1.1 - https://github.com/psydwannabe/jsVideoModal -->
 ```
 
 ## Usage
